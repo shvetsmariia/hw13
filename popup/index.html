@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Popup - We'd like to help you</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="help-form, popup-form, info-form">
+    <meta name="description" content="Popup form to answer your questions">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="popup-bg">
+        <div class="popup-form">
+            <form action="https://fom.in.ua/echo">
+                <div class="form-part-one">
+                    <h1 class="heading">We would like to help you</h1>
+                    <input type="text" name="name" id="name" class="text name" placeholder="Name" required>
+                    <label for="name"></label>
+                    <textarea id="message" name="message" class="text message" placeholder="Message"></textarea>
+                    <label for="message"></label>
+                </div>
+                <div class="form-part-two">
+                    <h2 class="heading2">How to answer you?</h2>
+                    <input type="tel" name="phone" id="phone" class="text phone" placeholder="Phone number" required>
+                    <label for="phone"></label>
+                    <input type="email" name="email" id="email" class="text email" placeholder="Email" required>
+                    <label for="email"></label>
+                </div>
+                <div>
+                    <button class="submit-button" type="submit">Send message</button>
+                    <button class="exit-button" type="button"><img src="./exit-button.png" alt="close"></button>
+                </div>
+            </form>
+        </div>
+    </div> 
+</body>
+</html>

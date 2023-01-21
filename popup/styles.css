@@ -1,0 +1,119 @@
+@import url(./font/fonts.css);
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 2000px;
+}
+
+.popup-bg {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    right: 0;
+    bottom: 0;
+    background-color: rgba(50, 50, 100, 0.7);
+}
+
+.popup-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    padding: 30px;
+    background-color: #F5F5FA; 
+    box-shadow: 0px 15px 80px rgba(40, 40, 86, 0.5);
+    border-radius: 12px;
+}
+
+.form-part-one, .form-part-two {
+    margin-bottom: 30px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.heading2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #B3B3BA;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.text {
+    display: block;
+    width: 590px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF; 
+    border-radius: 8px; 
+    color: #B3B3BA; 
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0;
+}
+
+.name {
+    margin-bottom: 15px;
+}
+
+.message {
+    height: 130px;
+    resize: none;
+}
+
+.phone {
+    margin-bottom: 15px;
+}
+
+.email {
+    margin-bottom: 0;
+}
+
+.submit-button {
+    display: block;
+    width: 590px;
+    padding: 18px 30px; 
+    background: #24A3FF;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.exit-button {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border: none;
+    padding: 0; 
+    background-color: #F5F5FA;
+}
+
+.exit-button:hover {
+    background-color: #24A3FF;
+}
