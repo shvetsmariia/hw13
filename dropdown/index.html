@@ -13,24 +13,24 @@
     <header>
         <nav>
             <div class="dropdown">
-                <div>
-                    <div class="menu-links">Home</div>
-                    <div class="menu-links products">Products
-                        <div class="dropdown-content">
-                            <div class="product-items">Product 1</div>
-                            <div class="product-items product-2">Product 2
-                                <div class="sub-items">
-                                    <div class="sub-item">Sub Item</div>
-                                    <div class="sub-item sub2">Sub Item</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hightlight"></div>
-                    <div class="menu-links">About</div>
-                    <div class="menu-links">Contact</div>
-                </div>
-                
+                <ul>
+                    <li><a href="#home" class="menu-links">Home</a></li>
+                    <ul class="hightlight"></ul>
+                    <li><a href="#products" class="menu-links products">Products</a>
+                        <ul class="hightlight"></ul>
+                        <ul class="dropdown-content">
+                            <li><a href="#product1" class="product-items">Product 1</a></li>
+                            <li><a href="#product2" class="product-items">Product 2</a>
+                                <ul class="sub-items">
+                                    <li><a href="#sub-item" class="sub-item">Sub Item</a></li>
+                                    <li><a href="#sub-item" class="sub-item">Sub Item</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#about" class="menu-links">About</a></li>
+                    <li><a href="#contacts" class="menu-links">Contact</a></li>
+                </ul>
             </div> 
         </nav>
     </header>
