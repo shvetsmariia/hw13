@@ -16,20 +16,26 @@ body {
     left: 10px; 
     right: 0;
     background-color: #9e2e8f;
+    border-bottom: 5px solid #c67dbc;
 }
 
 .menu-links {
     text-transform: uppercase; 
 }
 
-.hightlight {
-    position: absolute;
-    top: 80px; 
-    right: 0px;
-    left: 0;
-    width: 100%;
-    background-color: #c67dbc;
-    height: 5px;
+.link {
+    display: inline-block;
+    padding: 30px;
+}
+
+.p1 {
+    display: block;
+    padding: 30px 69px 30px 30px; 
+}
+
+.p2 {
+    display: block;
+    padding: 30px 65px 30px 30px; 
 }
 
 .products::after {
@@ -38,8 +44,9 @@ body {
 }
 
 .dropdown-content {
-    top: 105%; 
+    top: 100%; 
     background-color: #c67dbc;
+    border-top: 5px solid #c67dbc;
 }
 
 .product-items::after {
@@ -59,7 +66,7 @@ body {
 
 .sub-item {
     display: block;
-    width: 140px;
+    width: 199px;
 }
 
 a {
@@ -76,7 +83,6 @@ ul {
 li {
     position: relative;
     display: inline-block;
-    padding: 30px;
     font-size: 20px;
     line-height: 20px;
     font-weight: 700;
@@ -103,7 +109,6 @@ ul li:hover > ul, ul li ul:hover {
 }
   
 ul li ul li {
-    clear: both;
     width: 100%;
     border: 1px solid #9e2e8f;
 }
